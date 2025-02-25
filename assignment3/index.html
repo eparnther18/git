@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment #3</title>
+    <!-- External link to styles.css, as seen in Chap. 10 -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Changing color, font-family, font-size like seen in Chap. 11 & 12 -->
+    <style> 
+      h1 {
+        color: purple;
+      }
+      body {
+        background-color: black;
+        font-family: Times New Roman;
+        font-size: 16px;
+      }
+      footer {
+        font-family: Times New Roman;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+      <!-- inline style -->
+      <h1 style="color: purple; font-family: Times;">Hello!</h1>
+      <!-- The <p> elements inherit the color and font-family properties in the body tag. With this, the font becomes Times and the color becomes lightblue. -->
+      <p> Here is the paragraph that will demonstrate <b><i> inheritance </i></b> from inside the HTML code. </p>
+      <p> The two main observations about what inheritance and cascade affect paragraphs is that p tag elements inherit anything in the body tag and inline styles (like in h1) override internal and external styles.</p>
+  <footer>
+    <p>Website Created by Evan Parnther </p>
+  </footer>
+  </body>
+</html>

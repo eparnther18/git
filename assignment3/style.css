@@ -1,0 +1,24 @@
+/* Changing properties like color & font-family as seen in Chapters 10-12 */
+
+body {
+    color: lightblue;
+    font-family: Arial, Comic Sans MS;
+    padding: 25px;
+  }
+  
+  h1 {
+    color: lightblue !important;
+    border: 2px solid white;
+    padding: 25px;
+  }
+  
+  footer {
+    border: 0.1px solid white;
+  }
+  
+  /* The color for h1 being lightblue is because of the !important overriding
+  the internal purple color because of higher specificity. Without !important,
+  the inline purple color would take precedence. */
+  
+  
+  
