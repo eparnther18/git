@@ -74,7 +74,7 @@
     clear: both;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 480px) and (max-width: 768px) {
     #main-content {
       display: grid;                
       grid-template-columns: 2fr;    
