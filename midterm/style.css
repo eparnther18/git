@@ -67,6 +67,11 @@ address h2, p {
     margin-top: 15px;
 } 
 
+#Superhero, #Horror, #ScienceFiction {
+    text-align: left;
+    padding-left: 10px;
+}
+
 /* #blog {
     display: grid;
     grid-template-columns: 3fr 1fr;
