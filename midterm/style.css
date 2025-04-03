@@ -1,0 +1,125 @@
+/* Basic reset to ensure consistent styling across browsers 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto; /* header, content, footer */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #1e09ff; /* Blue color */
+    color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif; /* Comic Sans */
+}
+
+nav {
+    /* background-color: #f8f9fa;  Light gray background for the nav */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 20px; /* Space between the navigation links */
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e09ff; /* Blue color for links */
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center text in the main section */
+}
+
+footer {
+    background-color: #1e09ff; /* Dark background for the footer */
+    color: #f9f9f9;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#comic-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#comic img {
+    width: auto;
+    max-width: 300px;
+    height: 400px;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+address h2, p {
+    margin-top: 15px;
+} 
+
+@media screen and (max-width: 480px) {
+    #header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;     /* Center the content */
+        height: auto;            /* Allow header to adjust height on small screens */
+    }
+
+    #nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center;     /* Center nav items */
+    }
+
+    #nav li {
+        margin: 10px 0; /* Add margin for vertical spacing */
+    }
+}
+@media screen and (max-width: 768px) {
+    #header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;     /* Center the content */
+        height: auto;            /* Allow header to adjust height on small screens */
+    }
+
+    #nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center;     /* Center nav items */
+    }
+
+    #nav li {
+        margin: 10px 0; /* Add margin for vertical spacing */
+    }
+}
+@media screen and (max-width: 1024px) {
+    #header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;     /* Center the content */
+        height: auto;            /* Allow header to adjust height on small screens */
+    }
+
+    #nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center;     /* Center nav items */
+    }
+
+    #nav li {
+        margin: 10px 0; /* Add margin for vertical spacing */
+    }
+}
