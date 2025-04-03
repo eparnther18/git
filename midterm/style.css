@@ -60,6 +60,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    align-items: center;
 }
 
 #comic img {
@@ -69,6 +70,18 @@ footer {
     object-fit: contain;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+#figure {
+    align-items: center;
+}
+
+#figure img {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
 }
 
 /*For Contact page */
@@ -109,12 +122,14 @@ h3 {
 @media (max-width: 480px) { body { font-size: 16px; padding: 10px; } main {display: grid;                
     grid-template-columns: 2fr;    
     gap: 10px;} nav {display: flex; flex-direction: column; align-items: center; width: 100%; padding: 10px 0; 
-    margin: 10;} figure {width: auto;}}
+    margin: 10;} figure {width: 100%;} figure img {max-width: 100%; height: auto;}}
+
 @media (max-width: 768px) { body { font-size: 16px; padding: 10px; } main {display: grid;                
     grid-template-columns: 2fr;    
     gap: 10px;} nav {display: flex; flex-direction: column; align-items: center; width: 100%; padding: 10px 0; 
-    margin: 10;} figure {width: auto;}}
+    margin: 10;} figure {width: 100%;} figure img {max-width: 100%; height: auto;}}
+
 @media (max-width: 1024px) { body { font-size: 16px; padding: 10px; } main {display: grid;                
     grid-template-columns: 2fr;    
     gap: 10px;} nav {display: flex; flex-direction: column; align-items: center; width: 100%; padding: 10px 0; 
-    margin: 10;} figure {width: auto;}}
+    margin: 10;} figure {width: 100%;} figure img{max-width: 100%; height: auto;}}
