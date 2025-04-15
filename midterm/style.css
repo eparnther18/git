@@ -1,4 +1,4 @@
-/*general layout for page */
+/*general layout for page (grid) */
 body {
     display: grid;
     grid-template-columns: 1fr;
@@ -75,6 +75,7 @@ footer {
 
 #figure {
     align-items: center;
+    justify-content: center;
 }
 
 #figure img {
@@ -82,6 +83,7 @@ footer {
     max-width: 100%;
     height: auto;
     align-items: center;
+    justify-content: center;
 }
 
 /*For Contact page */
@@ -119,6 +121,7 @@ h3 {
     margin-top: 0;
 }
 
+/*media query */
 @media (max-width: 480px) { body { font-size: 16px; padding: 10px; } main {display: grid;                
     grid-template-columns: 2fr;    
     gap: 10px;} nav {display: flex; flex-direction: column; align-items: center; width: 100%; padding: 10px 0; 
