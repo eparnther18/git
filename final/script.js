@@ -1,4 +1,4 @@
-/* const colors = ["#fff9f7", "#fefff7", "#f7fff7"]; // grey, yellow, green
+const colors = ["#fff9f7", "#fefff7", "#f7fff7"]; // grey, yellow, green
 console.log("The first color in the array is:", colors[0]);
 const userName = prompt("What is your name?");
 
@@ -9,9 +9,9 @@ selectedColor: colors[colorChoice]
 };
 
 // Complete this line:
-document.body.style.backgroundColor = userInfo.selectedColor; */
+document.body.style.backgroundColor = userInfo.selectedColor; 
 
-// Check and retrieve cookie values
+/* Check and retrieve cookie values
 function getCookie(name) {
     const cookies = document.cookie.split('; ');
     for (let c of cookies) {
@@ -40,5 +40,5 @@ function getCookie(name) {
     } else {
     document.body.style.backgroundColor = "#ffffff";
     document.body.style.color = "#121212";
-    }
+    } */
 
