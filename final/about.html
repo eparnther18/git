@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A webpage about comic books and comic recommendations">
+    <title>About - Parnther's Comics Hub</title>
+    <link rel="stylesheet" href="style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HBGRDL67DJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HBGRDL67DJ');
+</script>
+
+</head>
+<body>
+  <header>
+    <h1> Parnther's Comic Hub </h1>
+    <p>The go-to place to explore the world of comics!</p>
+  </header>
+  <nav>
+    <a href="index.html" id="nav-home" onclick="gtag('event', 'nav_click', { event_category: 'navigation', event_label: 'Home' });">Home</a>
+    <a href="about.html" id="nav-about" onclick="gtag('event', 'nav_click', { event_category: 'navigation', event_label: 'About' });">About</a>
+    <a href="blog.html" id="nav-blog" onclick="gtag('event', 'nav_click', { event_category: 'navigation', event_label: 'Blog' });">Blog</a>
+    <a href="contact.html" id="nav-contact" onclick="gtag('event', 'nav_click', { event_category: 'navigation', event_label: 'Contact' });">Contact</a>
+    <a href="affiliate.html" id="nav-affiliate" onclick="gtag('event', 'nav_click', { event_category: 'navigation', event_label: 'Affiliate' });">Affiliate</a>
+</nav>
+  <main>
+    <section id="about"> 
+      <h2>About</h2> 
+      <p>I started my comic journey in 2012. The first Avengers movie had come out, and although I followed the previous releases, there was something special about seeing all of the heroes come together to save the world. After the movie, I became even more excited to see that there was years worth of published material invovling all my favorites. Instead of waiting years for a new X-Men, Batman, or Captain America movie, I could read almost 60 years worth of stories and still feel the same emotions. </p> 
+      <p> Beyond superheros, comics offers a unique experience of digesting stories. It is sequential narrative that requires so much more thought. There is so much space for interpretation and the art of the comics completly elevates the narrative. Comics are also more than superheroes. Every genre can be told through a comic. The best parts of my youth reading comics is coming to appreciate the kinds of stories that aren't confined to the continual narrative of superheroes. </p>
+      <h2> What to take away </h2>
+      <p> All I hope that you take away from this site is finding something that speaks to you. Whether that be a superhero book or something completly different. Comics are for everyone and I hope you'll give them a chance. </p>
+    </section>
+    <section id="comic-image">
+        <figure>
+          <img src="erik-mclean-27kCu7bXGEI-unsplash (2).jpg" alt="stack of comics with Uncanny Deadpool in the center" width="460" height="345">
+          <p>Photo by <a href="https://unsplash.com/@introspectivedsgn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Erik Mclean</a> on <a href="https://unsplash.com/photos/the-big-bang-theory-dvd-27kCu7bXGEI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+          </p>
+        </figure>
+    </section>
+  </main>
+    <footer>
+      <p>&copy; 2025 Parnther's Comic Hub, All Rights Reserved</p> 
+    </footer>
+<script src="script.js"></script>
+</body>

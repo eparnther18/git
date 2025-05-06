@@ -1,0 +1,149 @@
+
+/*general layout for page (grid) */
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto; /* header, content, footer */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #1e09ff; 
+    color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif; 
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 20px; /* Space between the navigation links */ 
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e09ff; 
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #1e09ff; 
+    color: #f9f9f9;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*centering text from about & affiliate pages */
+#about h2 {
+    text-align: center;
+}
+#affiliate h2 {
+    text-align: center;
+}
+
+/*Design for the images used across website */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+#comic-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#comic img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+#figure {
+    align-items: center;
+    justify-content: center;
+}
+
+#figure img {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/*For Contact page */
+address h2, p {
+    margin-top: 15px;
+} 
+
+/* Designs for blog page */
+#Superhero, #Horror, #ScienceFiction {
+    text-align: left;
+    padding-left: 10px;
+}
+
+section {
+    padding: 20px;
+    background-color: #c8e1f5;
+    border-radius: 8px;
+}
+
+/*text alignment for different pages */
+#blog h2, p {
+    text-align: center;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#welcome h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+/*media query */
+@media (max-width: 480px) { body { font-size: 16px; padding: 10px; } main {display: grid;                
+    grid-template-columns: 2fr;    
+    gap: 10px;} nav {display: flex; flex-direction: column; align-items: center; width: 100%; padding: 10px 0; 
+    margin: 10;} figure {width: 100%;} figure img {max-width: 100%; height: auto;}}
+
+@media (max-width: 768px) { body { font-size: 16px; padding: 10px; } main {display: grid;                
+    grid-template-columns: 2fr;    
+    gap: 10px;} nav {display: flex; flex-direction: column; align-items: center; width: 100%; padding: 10px 0; 
+    margin: 10;} figure {width: 100%;} figure img {max-width: 100%; height: auto;}}
+
+@media (max-width: 1024px) { body { font-size: 16px; padding: 10px; } main {display: grid;                
+    grid-template-columns: 2fr;    
+    gap: 10px;} nav {display: flex; flex-direction: column; align-items: center; width: 100%; padding: 10px 0; 
+    margin: 10;} figure {width: 100%;} figure img{max-width: 100%; height: auto;}}
