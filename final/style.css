@@ -18,8 +18,9 @@ header {
 }
 
 nav {
+    display: flex;
     padding: 20px;
-    text-align: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -136,11 +137,19 @@ h3 {
     margin-top: 0;
 }
 
-/* button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-} */ 
+/*button styling */
+button {
+  display: block;
+  margin: 10px auto;
+  height: 50px;
+  width: 120px;
+  background-color: #64aeeb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer; 
+} 
 
 /*media query */
 @media (max-width: 480px) { body { font-size: 16px; padding: 10px; } main {display: grid;                
