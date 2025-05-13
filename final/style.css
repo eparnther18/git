@@ -153,6 +153,22 @@ button {
 /*map and additional links styling */
 #map h2 {
     text-align: center;
+} 
+
+#map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#map iframe {
+    max-width: 100%;
+    width: 600px; 
+    height: 450px; 
+    border: 0;
 }
 
 /*media query */
