@@ -33,4 +33,3 @@ function getCookie(name) {
     document.body.style.backgroundColor = "#ffffff";
     document.body.style.color = "#121212";
   }
-  
