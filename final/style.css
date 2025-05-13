@@ -150,9 +150,10 @@ button {
   font-weight: bold;
   cursor: pointer; 
 } 
-
-/*formatting map link */
-
+/*map and additional links styling */
+#map h2 {
+    text-align: center;
+}
 
 /*media query */
 @media (max-width: 480px) { body { font-size: 16px; padding: 10px; } main {display: grid;                
