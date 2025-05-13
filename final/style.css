@@ -150,6 +150,11 @@ button {
   font-weight: bold;
   cursor: pointer; 
 } 
+
+button:hover {
+    background-color: #a8a5a4; 
+}
+
 /*map and additional links styling */
 #map h2 {
     text-align: center;
