@@ -16,7 +16,7 @@ function getCookie(name) {
     userTheme = prompt("Do you prefer dark or light theme?").toLowerCase();
   
     document.cookie = `name=${userName}; max-age=${60 * 60 * 24 * 7}; path=/`;
-    document.cookie = `theme=${userTheme}; max-age=${60 * 60 * 24 * 7}; path=/`;
+    document.cookie = `theme=${userTheme}; max-age=${60 * 60 * 24 * 7}; path=/`; 
   }
   
   // Apply personalized greeting
